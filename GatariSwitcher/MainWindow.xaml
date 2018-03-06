@@ -1,7 +1,7 @@
 ﻿<Window x:Class="GatariSwitcher.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Gatari Switcher" Height="170" Width="310" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="Transparent"
+        Title="retrosu! Switcher" Height="170" Width="310" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="Transparent"
         WindowStartupLocation="CenterScreen">
     <Grid x:Name="mainGrid">
         <Grid.Effect>
