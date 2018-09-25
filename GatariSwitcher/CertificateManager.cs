@@ -16,7 +16,7 @@ namespace GatariSwitcher
             var store = new X509Store(StoreName.Root, StoreLocation.CurrentUser);
             store.Open(OpenFlags.ReadWrite);
 
-            var certificate = new X509Certificate2(retrosu.Properties.Resources.ca);
+            var certificate = new X509Certificate2(GatariSwitcher.Properties.Resources.gatari);
             store.Add(certificate);
 
             store.Close();
@@ -27,7 +27,7 @@ namespace GatariSwitcher
             var store = new X509Store(StoreName.Root, StoreLocation.CurrentUser);
             store.Open(OpenFlags.ReadWrite);
 
-            var certificates = store.Certificates.Find(X509FindType.FindBySubjectName, "Hangout CA", true);
+            var certificates = store.Certificates.Find(X509FindType.FindBySubjectName, "Mansion", true);
 
             foreach (var cert in certificates)
             {
@@ -52,7 +52,7 @@ namespace GatariSwitcher
             var store = new X509Store(StoreName.Root, StoreLocation.CurrentUser);
             store.Open(OpenFlags.ReadOnly);
 
-            var c = store.Certificates.Find(X509FindType.FindBySubjectName, "Hangout CA", true);
+            var c = store.Certificates.Find(X509FindType.FindBySubjectName, "Mansion", true);
             bool result = c.Count >= 1;
 
             store.Close();

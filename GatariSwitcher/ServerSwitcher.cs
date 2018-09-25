@@ -20,11 +20,12 @@ namespace GatariSwitcher
             var result = lines.Where(x => !x.Contains("ppy.sh")).ToList();
             result.AddRange
             (
-                serverAddress + " osu.ppy.sh",
-                serverAddress + " c.ppy.sh",
-                serverAddress + " c1.ppy.sh",
-                serverAddress + " a.ppy.sh",
-                serverAddress + " i.ppy.sh"
+                "178.62.255.17" + " osu.ppy.sh",
+                "178.62.255.17" + " c.ppy.sh",
+                "178.62.255.17" + " c1.ppy.sh",
+                "178.62.255.17" + " a.ppy.sh",
+                "178.62.255.17" + " i.ppy.sh",
+                "194.135.85.107" + " i.ppy.sh"
             );
             HostsFile.WriteAllLines(result);
         }
@@ -41,7 +42,7 @@ namespace GatariSwitcher
 
         public Server GetCurrentServer()
         {
-            bool isGatari = HostsFile.ReadAllLines().Any(x => x.Contains("osu.ppy.sh") && !x.Contains("#"));
+            bool isGatari = HostsFile.ReadAllLines().Any(x => x.Contains("osu.ppy.sh") && !x.Contains("#") && x.Contains("178.62.255.17"));
             return isGatari ? Server.Gatari : Server.Official;
         }
     }

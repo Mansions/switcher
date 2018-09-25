@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
@@ -17,8 +17,8 @@ namespace GatariSwitcher
             InitializeComponent();
             // base init
             certificateManager = new CertificateManager();
-            switchButton.Content = "Getting ips";
-            certButton.Content = "Obtaining the certificate status.";
+            switchButton.Content = "Retrieving IP address ...";
+            certButton.Content = "Getting the certificate status ...";
             statusLabel.Content = Constants.UiUpdatingStatus;
             DisableSwitching();
             InitSwitcher();
@@ -33,8 +33,8 @@ namespace GatariSwitcher
             var serverIp = await GeneralHelper.GetGatariAddressAsync();
             if (serverIp == string.Empty)
             {
-                MessageBox.Show("Error getting IP address" + Environment.NewLine +
-                    "Will used built in ips");
+                MessageBox.Show("An error occurred while retrieving Mansions's IP. Maybe check your Internet connection?" + Environment.NewLine +
+                    "Stored IP address will be used");
                 serverIp = Constants.GatariHardcodedIp;
             }
             serverSwitcher = new ServerSwitcher(serverIp);
@@ -84,7 +84,7 @@ namespace GatariSwitcher
             }
             catch (Exception ex)
             {
-                MessageBox.Show("An error occurred while switching server"
+                MessageBox.Show("An error occurred while connecting to Mansion. If you still can't connect and have tried disabling your antivirus, please ask for help either in our discord or by checking the contact block on VK"
                 + string.Format("\r\n\r\nDetails:\r\n{0}", ex.Message));
                 Logger.Log(ex);
             }
@@ -109,7 +109,7 @@ namespace GatariSwitcher
             }
             catch (Exception ex)
             {
-                MessageBox.Show("An error occurred while installing/uninstalling the certificate"
+                MessageBox.Show("An error occurred while installing / removing the certificate."
                     + string.Format("\r\n\r\nDetails:\r\n{0}", ex.Message));
                 Logger.Log(ex);
             }
@@ -125,7 +125,7 @@ namespace GatariSwitcher
 
         private void websiteText_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://aeo.space");
+            System.Diagnostics.Process.Start("http://osu.themansions.nl");
         }
 
         private void titleBar_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

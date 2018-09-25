@@ -2,24 +2,25 @@
 {
     public class Constants
     {
-        // Use this address if the IP API is dead :D
-        public const string GatariHardcodedIp = "195.201.40.2";
+        // Use this address if we cannot grab from ips.txt
+        public const string GatariHardcodedIp = "178.62.255.17";
+        public const string MirrorIP = "194.135.85.107";
 
-        // The address that can die :D
-        public const string GatariIpApiAddress = "http://old.retrosu.pw/ips.txt";
+        // Grab address from here when possible
+        public const string GatariIpApiAddress = "https://dl.themansions.nl/ip.txt";
 
-        public const string UiInstallCertificate = "Install Cert";
+        public const string UiInstallCertificate = "Install Certificate";
 
-        public const string UiUninstallCertificate = "Uninstall Cert";
+        public const string UiUninstallCertificate = "Delete Certificate";
 
-        public const string UiYouArePlayingOnGatari = "You are playing on retrosu!";
+        public const string UiYouArePlayingOnGatari = "You're connected to TheMansions!";
 
-        public const string UiYouArePlayingOnOfficial = "You are playing on Bancho";
+        public const string UiYouArePlayingOnOfficial = "You're playing on Bancho";
 
-        public const string UiSwitchToGatari = "Play on retrosu!";
+        public const string UiSwitchToGatari = "Connect to TheMansions";
 
-        public const string UiSwitchToOfficial = "Play on Bancho";
+        public const string UiSwitchToOfficial = "Disconnect from TheMansions";
 
-        public const string UiUpdatingStatus = "Getting ips";
+        public const string UiUpdatingStatus = "Retrieving addresses..";
     }
 }
