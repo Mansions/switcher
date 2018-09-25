@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatariSwitcher", "GatariSwitcher\GatariSwitcher.csproj", "{9E52F4E6-CBDE-439C-9534-AC06E69748A2}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switcher", "GatariSwitcher\switcher.csproj", "{9E52F4E6-CBDE-439C-9534-AC06E69748A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5281AA4-CA55-4479-85C7-FB5427976B6F}
 	EndGlobalSection
 EndGlobal
