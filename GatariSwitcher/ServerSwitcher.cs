@@ -25,7 +25,7 @@ namespace GatariSwitcher
                 "178.62.255.17" + " c1.ppy.sh",
                 "178.62.255.17" + " a.ppy.sh",
                 "178.62.255.17" + " i.ppy.sh",
-                "194.135.85.107" + " i.ppy.sh"
+                "194.135.85.107" + " bm6.ppy.sh"
             );
             HostsFile.WriteAllLines(result);
         }
