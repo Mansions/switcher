@@ -1,0 +1,11 @@
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Release\ass.Properties.Resources.resources
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Release\RippleServerSwitcher.csproj.GenerateResource.cache
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Release\RippleServerSwitcher.csproj.CoreCompileInputs.cache
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Release\RippleServerSwitcher.csprojAssemblyReference.cache
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\bin\Release\switcher.exe.config
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\bin\Release\switcher.exe
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\bin\Release\switcher.pdb
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Release\switcher.exe
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Release\switcher.pdb
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Release\MansionServerSwitcher.ChangelogForm.resources
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Release\MansionServerSwitcher.MainForm.resources

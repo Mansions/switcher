@@ -1,0 +1,22 @@
+C:\Users\s33555\Documents\GitHub\server-switcher\bin\Debug\Akatsuki Server Switcher.exe.config
+C:\Users\s33555\Documents\GitHub\server-switcher\bin\Debug\Akatsuki Server Switcher.exe
+C:\Users\s33555\Documents\GitHub\server-switcher\bin\Debug\Akatsuki Server Switcher.pdb
+C:\Users\s33555\Documents\GitHub\server-switcher\obj\Debug\RippleServerSwitcher.csprojAssemblyReference.cache
+C:\Users\s33555\Documents\GitHub\server-switcher\obj\Debug\AkatsukiServerSwitcher.ChangelogForm.resources
+C:\Users\s33555\Documents\GitHub\server-switcher\obj\Debug\AkatsukiServerSwitcher.MainForm.resources
+C:\Users\s33555\Documents\GitHub\server-switcher\obj\Debug\ass.Properties.Resources.resources
+C:\Users\s33555\Documents\GitHub\server-switcher\obj\Debug\RippleServerSwitcher.csproj.GenerateResource.cache
+C:\Users\s33555\Documents\GitHub\server-switcher\obj\Debug\RippleServerSwitcher.csproj.CoreCompileInputs.cache
+C:\Users\s33555\Documents\GitHub\server-switcher\obj\Debug\Akatsuki Server Switcher.exe
+C:\Users\s33555\Documents\GitHub\server-switcher\obj\Debug\Akatsuki Server Switcher.pdb
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\bin\Debug\Akatsuki Server Switcher.exe.config
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\bin\Debug\Akatsuki Server Switcher.exe
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\bin\Debug\Akatsuki Server Switcher.pdb
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Debug\RippleServerSwitcher.csprojAssemblyReference.cache
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Debug\AkatsukiServerSwitcher.ChangelogForm.resources
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Debug\AkatsukiServerSwitcher.MainForm.resources
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Debug\ass.Properties.Resources.resources
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Debug\RippleServerSwitcher.csproj.GenerateResource.cache
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Debug\RippleServerSwitcher.csproj.CoreCompileInputs.cache
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Debug\Akatsuki Server Switcher.exe
+C:\Users\jayd\Desktop\Mansion Git\server-switcher\obj\Debug\Akatsuki Server Switcher.pdb
