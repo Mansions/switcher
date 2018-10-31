@@ -277,7 +277,7 @@ namespace MansionServerSwitcher
             this.localButton.NoRounding = false;
             this.localButton.Size = new System.Drawing.Size(116, 25);
             this.localButton.TabIndex = 9;
-            this.localButton.Text = "Relax Soon";
+            this.localButton.Text = "Relax Server";
             this.localButton.Transparent = false;
             this.localButton.Click += new System.EventHandler(this.localButton_Click);
             // 
@@ -515,11 +515,11 @@ namespace MansionServerSwitcher
             this.label4.ForeColor = System.Drawing.Color.Gold;
             this.label4.Location = new System.Drawing.Point(8, 18);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(213, 78);
+            this.label4.Size = new System.Drawing.Size(210, 78);
             this.label4.TabIndex = 2;
-            this.label4.Text = "You are playing on a local server!\r\nThat\'s only for Mansion developers!\r\nYou won" +
-    "\'t be able to connect\r\nif you leave the switcher in the\r\ncurrent state. Please p" +
-    "ress the\r\nLocal/Remote button.";
+            this.label4.Text = "You are playing on a local server!\r\nThat\'s only for Mansion developers!\r\nYou won\'" +
+    "t be able to connect\r\nif you leave the switcher in the\r\ncurrent state. Please pr" +
+    "ess the\r\nLocal/Remote button.";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainForm
